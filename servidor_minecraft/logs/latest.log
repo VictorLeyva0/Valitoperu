@@ -1,225 +1,54 @@
-[14May2025 23:38:39.888] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[14May2025 23:38:39.892] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[14May2025 23:38:45.410] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14May2025 23:38:45.560] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Valitoperu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[14May2025 23:38:46.203] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Valitoperu/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[14May2025 23:38:46.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Valitoperu/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14May2025 23:38:46.210] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Valitoperu/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14May2025 23:38:46.213] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Valitoperu/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14May2025 23:38:46.534] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[14May2025 23:38:49.817] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14May2025 23:38:49.894] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[14May2025 23:39:02.793] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[14May2025 23:39:02.879] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_sync
-[14May2025 23:39:02.879] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_playlist_add
-[14May2025 23:39:02.880] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_playlist_edit
-[14May2025 23:39:02.880] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_playlist_change_authority
-[14May2025 23:39:02.883] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_add
-[14May2025 23:39:02.883] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_edit
-[14May2025 23:39:02.884] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_ring_ready_result
-[14May2025 23:39:02.886] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_ring_update_result
-[14May2025 23:39:02.889] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:music_or_playlist_delete
-[14May2025 23:39:02.891] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:multiple_music_add
-[14May2025 23:39:02.892] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id iammusicplayer:hand_lid_cycle
-[14May2025 23:39:02.888] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:block_entity_instruction
-[14May2025 23:39:02.899] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id otyacraftengine:item_instruction
-[14May2025 23:39:03.108] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[14May2025 23:39:03.108] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[14May2025 23:39:03.785] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.787] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.789] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.792] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.794] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.796] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.798] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.799] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.800] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.802] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.806] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.808] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.809] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.812] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.815] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.818] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.821] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.822] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.824] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.825] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:03.827] [main/ERROR] [treasure2/]: java.lang.reflect.InvocationTargetException
-[14May2025 23:39:04.834] [main/INFO] [treasure2/]: colliding particle data creating from coords, deserializer...
-[14May2025 23:39:04.834] [main/INFO] [treasure2/]: colliding particle data creating from coords, deserializer...
-[14May2025 23:39:06.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class mod.gottsch.forge.treasure2.core.entity.monster.PirateChestMimic from class mod.gottsch.forge.treasure2.core.entity.monster.Mimic
-[14May2025 23:39:06.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class mod.gottsch.forge.treasure2.core.entity.monster.PirateChestMimic from class mod.gottsch.forge.treasure2.core.entity.monster.Mimic
-[14May2025 23:39:06.090] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class mod.gottsch.forge.treasure2.core.entity.monster.PirateChestMimic from class mod.gottsch.forge.treasure2.core.entity.monster.Mimic
-[14May2025 23:39:06.638] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treasure2] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-Treasure/1.20.1-main/update.json
-[14May2025 23:39:06.721] [main/INFO] [journeymap/]: Initializing Packet Registries
-[14May2025 23:39:06.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treasure2] Found status: UP_TO_DATE Current: 3.12.1 Target: null
-[14May2025 23:39:06.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[14May2025 23:39:06.769] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[14May2025 23:39:06.770] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[14May2025 23:39:06.770] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[14May2025 23:39:06.770] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[14May2025 23:39:06.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[14May2025 23:39:06.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[14May2025 23:39:06.955] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[14May2025 23:39:06.998] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[14May2025 23:39:07.006] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[14May2025 23:39:07.009] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
-[14May2025 23:39:07.012] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[14May2025 23:39:07.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: AHEAD Current: 1.10.0.1 Target: null
-[14May2025 23:39:07.078] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[14May2025 23:39:07.132] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.36 Target: null
-[14May2025 23:39:07.133] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[14May2025 23:39:07.150] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.9.4 Target: null
-[14May2025 23:39:07.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gottschcore] Starting version check at https://raw.githubusercontent.com/gottsch/gottsch-minecraft-GottschCore/1.20.1-main/update.json
-[14May2025 23:39:07.171] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gottschcore] Found status: UP_TO_DATE Current: 2.3.0 Target: null
-[14May2025 23:39:07.171] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Starting version check at https://raw.githubusercontent.com/TeamFelnull/OtyacraftEngine/master/version_check.json
-[14May2025 23:39:07.187] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [otyacraftengine] Found status: UP_TO_DATE Current: 3.7.0-alpha.2 Target: null
-[14May2025 23:39:07.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iammusicplayer] Starting version check at https://raw.githubusercontent.com/TeamFelnull/IamMusicPlayer/master/version_check.json
-[14May2025 23:39:07.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iammusicplayer] Found status: UP_TO_DATE Current: 3.22.0-alpha.5 Target: null
-[14May2025 23:39:07.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14May2025 23:39:07.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[14May2025 23:39:09.960] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14May2025 23:39:11.369] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Valitoperu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
-[14May2025 23:39:11.369] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Valitoperu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
-[14May2025 23:39:13.227] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[14May2025 23:39:13.461] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_1 as it is missing following references: nordic_structures:dwarfcavernspawner_1 (from nordic_structures-1.6.9-forge-1.20.1.jar), 
-	nordic_structures:dwarfcavernspawner_2 (from nordic_structures-1.6.9-forge-1.20.1.jar), 
-	nordic_structures:abandonednordicmine_1spawner (from nordic_structures-1.6.9-forge-1.20.1.jar), 
-	nordic_structures:abandonednordicmine_2spawner (from nordic_structures-1.6.9-forge-1.20.1.jar), 
-	nordic_structures:steelore (from nordic_structures-1.6.9-forge-1.20.1.jar)
-[14May2025 23:39:14.875] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
-[14May2025 23:39:14.994] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[14May2025 23:39:15.206] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3004 advancements
-[14May2025 23:39:16.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14May2025 23:39:16.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14May2025 23:39:16.545] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14May2025 23:39:16.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14May2025 23:39:16.697] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14May2025 23:39:16.737] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14May2025 23:39:16.849] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14May2025 23:39:16.850] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14May2025 23:39:16.850] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14May2025 23:39:16.850] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14May2025 23:39:16.920] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[14May2025 23:39:16.921] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[14May2025 23:39:16.923] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[14May2025 23:39:17.344] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14May2025 23:39:22.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14May2025 23:39:26.130] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.414] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.438] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.443] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.479] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.494] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.518] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.540] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.561] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:26.586] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:27.255] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:27.595] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:28.816] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:28.834] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:29.181] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:29.590] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:30.086] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14May2025 23:39:30.587] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[14May2025 23:39:31.089] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14May2025 23:39:31.278] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9193 ms
-[14May2025 23:39:31.279] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.411s)! For help, type "help"
-[14May2025 23:39:31.345] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14May2025 23:39:31.397] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[14May2025 23:39:31.397] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[14May2025 23:39:49.611] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VictorLeyva08[/127.6.247.104:57379] logged in with entity id 632 at (-27.083205722785245, 62.81632561218644, 49.81439970672182)
-[14May2025 23:39:49.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 joined the game
-[14May2025 23:39:49.803] [Server thread/INFO] [Jade/]: Syncing config to VictorLeyva08 (e3d00ee5-81b1-3058-a90d-dbdba3aa9dfd)
-[14May2025 23:40:15.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Monster Hunter]
-[14May2025 23:40:25.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Acquire Hardware]
-[14May2025 23:40:37.771] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ElKokytus[/127.122.205.27:47723] logged in with entity id 943 at (-25.85669869029333, 62.7013579196024, 40.16380363235727)
-[14May2025 23:40:37.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus joined the game
-[14May2025 23:40:37.825] [Server thread/INFO] [Jade/]: Syncing config to ElKokytus (058bacd9-7757-3311-9d29-7b293bd1deaf)
-[14May2025 23:41:08.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:41:08.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Your First Grave]
-[14May2025 23:41:08.238] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:41:26.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Acquire Hardware]
-[14May2025 23:41:59.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:41:59.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Your First Grave]
-[14May2025 23:41:59.912] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:42:03.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Knowledge of Death]
-[14May2025 23:42:03.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Ambush]
-[14May2025 23:42:06.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:42:06.165] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:42:17.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Knowledge raises the soul]
-[14May2025 23:43:07.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has reached the goal [Here They Come]
-[14May2025 23:43:19.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:43:19.060] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:43:32.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has reached the goal [Here They Come]
-[14May2025 23:43:34.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:43:34.261] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:44:34.055] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/562, l='ServerLevel[world]', x=-18.53, y=69.00, z=23.57] died, message: 'Unemployed was slain by Vindicator'
-[14May2025 23:44:59.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:44:59.461] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:45:24.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VictorLeyva08 was kicked for floating too long!
-[14May2025 23:45:24.508] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VictorLeyva08 lost connection: Disconnected
-[14May2025 23:45:24.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 left the game
-[14May2025 23:45:24.558] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[14May2025 23:45:31.770] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VictorLeyva08[/127.6.247.104:41729] logged in with entity id 2395 at (-68.07617956857011, 65.46026947021555, 135.7109271923389)
-[14May2025 23:45:31.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 joined the game
-[14May2025 23:45:31.809] [Server thread/INFO] [Jade/]: Syncing config to VictorLeyva08 (e3d00ee5-81b1-3058-a90d-dbdba3aa9dfd)
-[14May2025 23:46:03.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:46:03.909] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:46:21.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Knowledge of Death]
-[14May2025 23:46:21.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has reached the goal [Chain Death]
-[14May2025 23:46:21.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:46:21.060] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:46:30.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:46:30.158] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:46:32.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:46:32.765] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:46:37.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Alex's Mobs]
-[14May2025 23:46:48.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:46:48.363] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:46:51.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has reached the goal [Chain Death]
-[14May2025 23:46:51.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:46:51.114] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:46:52.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [The Most Useful Key]
-[14May2025 23:46:53.754] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/563, l='ServerLevel[world]', x=-20.80, y=70.78, z=19.51] died, message: 'Unemployed was slain by Vindicator'
-[14May2025 23:47:00.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:47:00.611] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:47:07.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:47:07.709] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:47:54.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Suit Up]
-[14May2025 23:48:10.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Suit Up]
-[14May2025 23:48:29.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:48:29.610] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:48:34.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:48:34.661] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:49:05.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Diamonds!]
-[14May2025 23:50:10.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:50:10.560] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:50:29.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Ambush]
-[14May2025 23:50:29.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Monster Hunter]
-[14May2025 23:50:59.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Isn't It Iron Pick]
-[14May2025 23:52:08.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:52:08.362] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:52:12.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:52:12.908] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:53:44.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:53:44.964] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:53:56.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Diamonds!]
-[14May2025 23:53:58.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Vindicator
-[14May2025 23:53:58.360] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:54:49.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has reached the goal [Fortuitous Militia]
-[14May2025 23:56:54.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 blew up
-[14May2025 23:56:54.674] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:56:56.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus blew up
-[14May2025 23:56:56.067] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
-[14May2025 23:57:32.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 went off with a bang
-[14May2025 23:57:32.661] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:57:37.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 was slain by Vindicator
-[14May2025 23:57:37.809] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:57:44.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has reached the goal [A Fast Comeback]
-[14May2025 23:58:44.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 went off with a bang
-[14May2025 23:58:44.160] [Server thread/INFO] [tombstone/]: The player VictorLeyva08 has successfully been saved
-[14May2025 23:58:51.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Stolen Magic]
-[14May2025 23:58:54.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [A Strange Grave Dust]
+[15May2025 00:02:09.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Mine? Mine? Mine?]
+[15May2025 00:02:15.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Jaws]
+[15May2025 00:02:59.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has reached the goal [Fortuitous Militia]
+[15May2025 00:04:59.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Free Willy]
+[15May2025 00:04:59.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Best Friends Forever]
+[15May2025 00:05:09.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Jaws]
+[15May2025 00:06:32.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Who You Gonna Call?]
+[15May2025 00:06:53.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Who You Gonna Call?]
+[15May2025 00:06:53.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [A Strange Grave Dust]
+[15May2025 00:08:24.647] [Worker-Main-1/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[15May2025 00:08:24.678] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[15May2025 00:08:24.679] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[15May2025 00:08:24.679] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[15May2025 00:08:24.680] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[15May2025 00:08:24.680] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[15May2025 00:08:24.800] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
+[15May2025 00:08:24.801] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
+[15May2025 00:08:24.822] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
+[15May2025 00:08:24.823] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
+[15May2025 00:08:24.823] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
+[15May2025 00:08:24.824] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
+[15May2025 00:08:24.824] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
+[15May2025 00:08:24.825] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
+[15May2025 00:08:24.825] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
+[15May2025 00:08:29.902] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
+[15May2025 00:08:29.903] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
+[15May2025 00:08:29.925] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
+[15May2025 00:08:29.925] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
+[15May2025 00:08:29.926] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
+[15May2025 00:08:29.926] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
+[15May2025 00:08:29.926] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
+[15May2025 00:08:29.933] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[15May2025 00:08:29.934] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[15May2025 00:08:29.934] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[15May2025 00:08:29.978] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[15May2025 00:08:29.979] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[15May2025 00:08:29.979] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
+[15May2025 00:09:27.137] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=60, y=-53, z=10}
+[15May2025 00:09:40.988] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[15May2025 00:09:41.302] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[15May2025 00:09:41.385] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[15May2025 00:09:41.436] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[15May2025 00:09:41.463] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[15May2025 00:09:41.507] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:mechanical_nest/mechanical_nest_decoration
+[15May2025 00:12:03.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has reached the goal [Magic Siphoner]
+[15May2025 00:13:17.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Husk
+[15May2025 00:13:17.265] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
+[15May2025 00:14:27.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has made the advancement [Ashes 'n Bones]
+[15May2025 00:15:30.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VictorLeyva08 has reached the goal [Discreet Search]
+[15May2025 00:16:31.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus has made the advancement [Sweet Dreams]
+[15May2025 00:18:02.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Skeleton
+[15May2025 00:18:02.369] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
+[15May2025 00:18:36.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElKokytus was slain by Skeleton
+[15May2025 00:18:36.470] [Server thread/INFO] [tombstone/]: The player ElKokytus has successfully been saved
